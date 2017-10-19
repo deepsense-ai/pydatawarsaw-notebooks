@@ -1,0 +1,24 @@
+{
+    "name" : "PyData Snippet",
+    "sub-menu" : [
+        {
+            "name" : "Image from url",
+            "snippet" : ["%matplotlib inline",
+                              "import matplotlib.pyplot as plt",
+                              "from PIL import Image",
+                              "import requests",
+                              "from io import BytesIO",
+                              "",
+                              "url ='https://blog.deepsense.ai/wp-content/uploads/2017/09/mapazimnamala.png' ",
+                              "response = requests.get(url)",
+                              "img = Image.open(BytesIO(response.content))",
+                              "plt.imshow(img);"]
+        },
+        {
+            "name" : "tell me what I need",
+            "snippet" : ["import numpy as np",
+                         "",
+                         "print('all you need is coffee')"]
+        }
+    ]
+}
