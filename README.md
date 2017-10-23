@@ -1,12 +1,11 @@
 # Installation
 
-If you want to get the exact setup I have run
+If you want to get the exact setup I have, run
 ```bash
-configure_notebooks.sh
+source configure_notebooks.sh
 ```
 it will get create an virtualenv install and configure all extensions, widgets and skin you
-can see in the presentation.
-If you want to change it go ahead!
+can see in the presentation. It is tested on linux. If you are using a different os you will have to adjust this script.
 
 # Presentation
 To open the presentation just run
