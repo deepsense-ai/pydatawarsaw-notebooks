@@ -1,4 +1,4 @@
-from IPython.display import HTML
+from IPython.display import display, HTML
 
 def plot_html_microscope(img_filepath):
     with open("resources/microscope.html") as f:
