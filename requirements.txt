@@ -1,6 +1,6 @@
 bleach==2.1.1
 bokeh==0.12.9
-certifi==2017.7.27.1
+certifi==2022.12.7
 chardet==3.0.4
 cycler==0.10.0
 decorator==4.1.2
